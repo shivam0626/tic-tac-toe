@@ -70,6 +70,7 @@ function App() {
 
   return (
     <div className="App">
+      {/* <h3 className='header'>Tic-tac-toe</h3> */}
       <ScoreBoard scores={scores} xPlayer={xPlayer}/>
       <Board board={board} onClick={gameOver ? resetBoard : handleBoxClick}/> 
       <ResetButton resetBoard={resetBoard} />
